@@ -1,0 +1,416 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(22, 58, 36, 1);
+    padding: 50px 100px;
+    color: #FFFFFF;
+}
+
+.header2{
+    display: flex;
+    gap: 20px;
+}
+
+.header3{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.header4 button{
+    padding: 15px 20px;
+    background-image: linear-gradient(to top, black, yellow, red, blue);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .6s ease;
+    color: #FFFFFF;
+}
+
+.header4 button:hover{
+    background-image: radial-gradient(blue, red, yellow, black) ;
+    transform: rotate(360deg) scale(1.5);
+}
+
+.header4 button:active{
+    transform: scale(2);
+}
+
+/* Head */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(22, 58, 36, 1);
+    color: #FFFFFF;
+}
+
+.head1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 450px;
+}
+
+.head1 h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Neck */
+
+.neck{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.neck1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.neck2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 450px;
+}
+
+.neck2 h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.neck3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.neck4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 450px;
+}
+.neck4 h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.neck5{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.neck6 h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Chest */
+
+.chest{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 100px;
+    background-color: rgba(22, 58, 36, 1);
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Stomach */
+
+.stomach{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.stomach1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 750px;
+}
+
+.stomach1 h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Hand */
+
+.hand{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+    align-items: center;
+    background-color: rgba(242, 239, 230, 1);
+}
+
+.hand1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 450px;
+}
+
+.hand1 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+/* Finger */
+
+.finger{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 100px;
+    background-color: rgba(242, 239, 230, 1);
+    justify-content: center;
+    align-items: center;
+}
+
+.finger1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Knee */
+
+.knee{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.knee1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.knee1 h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.knee2 button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, red, black, blue, yellow, green);
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.knee2 button:hover{
+    background-image: radial-gradient(green, red, blue, black, yellow);
+    transform: rotate(360deg) scale(1.5);
+}
+
+.knee2 button:active{
+    transform: scale(2);
+}
+
+/* Leg */
+
+.leg{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+    align-items: center;
+    background-color: rgba(242, 239, 230, 1);
+}
+
+.leg1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+}
+
+.leg1 h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.leg1 button{
+    padding: 15px 20px;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left,  black, red, blue, yellow, green);
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.leg1 button:hover{
+    background-image: radial-gradient(green, blue, red,  black, yellow);
+    transform: rotate(360deg) scale(1.5);
+}
+
+.leg1 button:active{
+    transform: scale(2);
+}
+
+/* Foot */
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 100px;
+    background-color: rgba(22, 58, 36, 1);
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.foot button{
+    padding: 15px 20px;
+    border: none;
+    width: 250px;
+    border-radius: 10px;
+    background-image: linear-gradient(93deg,   red,  yellow, black, green, blue);
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.foot button:hover{
+    background-image: radial-gradient(green, red, blue,  yellow, black );
+    transform: rotate(360deg) scale(1.5);
+}
+
+.foot button:active{
+    transform: scale(2);
+}
+
+/* Toe */
+
+.toe{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: rgba(242, 239, 230, 1);
+}
+
+.toe1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.toe2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.toe3{
+    display: flex;
+    gap: 30px;
+}
+
+.toe3 input{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.toe3 button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(93deg,   red,  yellow, black, green, blue);
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.toe3 button:hover{
+    background-image: radial-gradient(green, red, blue,  yellow, black );
+    transform: rotate(360deg) scale(1.5);
+}
+
+.toe3 button:active{
+    transform: scale(2);
+}
+
+/* Boy */
+
+.boy{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 100px;
+}
+
+.boy1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boy2{
+    display: flex;
+    gap: 10px;
+}
+
+.boy3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boy4{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: rgba(25, 140, 54, 1);
+}
